@@ -1,14 +1,19 @@
 # springboot-oracle-demo
 
+# Requisitos
+- Oracle 10G
+- [Maven](https://maven.apache.org/download.cgi)
+- [jdk8](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
+
 # Instalación 
 
 1. Clonar o descargar este repositorio.
 2. Descargar el Oracle Database 12.1.0.1 JDBC Driver  `ojdbc7` desde [Oracle](https://www.oracle.com/technetwork/database/features/jdbc/jdbc-drivers-12c-download-1958347.html?source=post_page---------------------------)
 3. Copiar en cualquier directorio e instalar con Maven: 
 ```
-		mvn install:install-file -Dfile={Path/to/your/ojdbc7.jar} -DgroupId=com.oracle -DartifactId=ojdbc7 -Dversion=12.1.0 -Dpackaging=jar
-
+mvn install:install-file -Dfile={Path/to/your/ojdbc7.jar} -DgroupId=com.oracle -DartifactId=ojdbc7 -Dversion=12.1.0 -Dpackaging=jar
 ```
+
 
 # Base de Datos
 
